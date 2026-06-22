@@ -9,7 +9,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
     # ----------------------------
     # Load Model
     # ----------------------------
-    @st.cache_resource
+    st.cache_resource
     def load_model():
         model_name = "distilbert-base-uncased-finetuned-sst-2-english"
         tokenizer = AutoTokenizer.from_pretrained(model_name)
