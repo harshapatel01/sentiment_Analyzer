@@ -5,7 +5,7 @@ import torch
 import torch.nn.functional as F
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-if st.button("Start"):
+
     # ----------------------------
     # Load Model
     # ----------------------------
